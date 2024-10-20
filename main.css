@@ -25,7 +25,7 @@ body {
     margin: 120px auto 0;
 }
 
-.container h6 {
+#index {
     font-size: 11px;
     font-weight: 800;
     color: #53ffaa;
@@ -34,7 +34,7 @@ body {
     text-align: center;
 }
 
-.container h3 {
+#quote {
     font-size: 24px;
     font-weight: 800;
     color: #cee3e9;
@@ -52,7 +52,7 @@ body {
     display: none;
 }
 
-.dice-container {
+#dice-container {
     width: 64px;
     height: 64px;
     background-color: #53ffaa;
@@ -69,12 +69,12 @@ body {
         margin: 223px auto 0;
     }
 
-    .container h6 {
+    #index {
         font-size: 13px;
         letter-spacing: 4.09px;
     }
 
-    .container h3 {
+    #quote {
         font-size: 28px;
         letter-spacing: -0.3px;
     }
@@ -89,7 +89,7 @@ body {
     }
 
     /* Add hover effects */
-    .dice-container:hover {
+    #dice-container:hover {
         cursor: pointer;
         box-shadow: 0 0 40px 0 #53ffaa;;
     }
