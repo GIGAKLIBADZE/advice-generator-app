@@ -87,4 +87,10 @@ body {
         display: block;
         margin-top: 40px;
     }
+
+    /* Add hover effects */
+    .dice-container:hover {
+        cursor: pointer;
+        box-shadow: 0 0 40px 0 #53ffaa;;
+    }
 }
