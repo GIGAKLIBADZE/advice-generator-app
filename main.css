@@ -12,8 +12,47 @@ body {
     width: 100vw;
     min-height: 100vh;
     font-family: 'Manrope', sans-serif !important;
-    font-size: 62.5% !important;
     background-color: #202733;
 }
 
 
+.container {
+    width: 343px;
+    background-color: #313a48;
+    box-shadow: 30px 50px 80px 0 rgba(0, 0, 0, 0.1);
+    padding: 40px 24px 64px;
+    border-radius: 10px;
+    margin: 120px auto 0;
+}
+
+.container h6 {
+    font-size: 11px;
+    font-weight: 800;
+    color: #53ffaa;
+    line-height: normal;
+    letter-spacing: 3.46px;
+    text-align: center;
+}
+
+.container h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #cee3e9;
+    line-height: normal;
+    letter-spacing: -0.26px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+#divider {
+    margin-top: 24px;
+}
+
+.dice-container {
+    width: 64px;
+    height: 64px;
+    background-color: #53ffaa;
+    border-radius: 50%;
+    padding: 20px;
+    margin: -32px auto 0;
+}
