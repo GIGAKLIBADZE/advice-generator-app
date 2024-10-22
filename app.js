@@ -5,7 +5,6 @@ const quote = document.getElementById("quote");
 async function information() {
     const info = await fetch("https://api.adviceslip.com/advice");
     const advice = await info.json();
-    console.log(advice);
     
     adviceIndex.innerHTML = `ADVICE #${advice.slip.id}`;
     quote.innerHTML = `${advice.slip.advice}`
@@ -14,14 +13,5 @@ async function information() {
 information();
 
 change.addEventListener("click", (event) => {
-    async function information() {
-        const info = await fetch("https://api.adviceslip.com/advice");
-        const advice = await info.json();
-        console.log(advice);
-        
-        adviceIndex.innerHTML = `ADVICE #${advice.slip.id}`;
-        quote.innerHTML = `${advice.slip.advice}`
-    }
-
     information();
 });
